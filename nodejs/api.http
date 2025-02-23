@@ -5,3 +5,6 @@ Content-Type: application/json
     "name": "Ryan Gomes Martins",
     "email": "ryteckgm@gmail.com"
 }
+
+###
+GET http://localhost:3333/invites/buebue
