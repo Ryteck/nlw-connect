@@ -7,4 +7,32 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:3333/invites/buebue
+
+POST http://localhost:3333/subscriptions
+Content-Type: application/json
+
+{
+    "name": "Ryan Gomes Martins",
+    "email": "ryteckgm2@gmail.com",
+    "referrer": "c4605454-bfca-4765-a1ab-0e33307e34fe"
+}
+
+###
+
+GET http://localhost:3333/invites/c4605454-bfca-4765-a1ab-0e33307e34fe
+
+###
+
+GET http://localhost:3333/subscribers/c4605454-bfca-4765-a1ab-0e33307e34fe/ranking/clicks
+
+###
+
+GET http://localhost:3333/subscribers/c4605454-bfca-4765-a1ab-0e33307e34fe/ranking/count
+
+###
+
+GET http://localhost:3333/subscribers/c4605454-bfca-4765-a1ab-0e33307e34fe/ranking/position
+
+###
+
+GET http://localhost:3333/ranking
